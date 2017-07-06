@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="BaseRecycleView">
+        <attr name="layoutMode" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+            <enum name="invalid_offset" value="2" />
+            <enum name="grid" value="3" />
+        </attr>
+        <attr name="columnCount" format="integer" />
+        <attr name="row_divider" format="boolean" />
+        <attr name="span_divider" format="boolean" />
+        <attr name="divider_width" format="dimension" />
+        <attr name="divider_height" format="dimension" />
+        <attr name="divider_margin_left" format="dimension" />
+        <attr name="divider_margin_right" format="dimension" />
+        <attr name="divider_margin_top" format="dimension" />
+        <attr name="divider_margin_bottom" format="dimension" />
+        <attr name="divider_color" format="color" />
+        <attr name="inner" format="boolean" />
+    </declare-styleable>
+
+</resources>
