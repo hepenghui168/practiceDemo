@@ -7,6 +7,7 @@ import com.example.admin.netdatalist.R;
 import com.example.admin.netdatalist.animals.contract.ArticleListContract;
 import com.example.admin.netdatalist.animals.model.model.ArticleListBean;
 import com.example.admin.netdatalist.animals.presenter.ArticleListPresenter;
+import com.example.admin.netdatalist.base.BaseActivity;
 import com.example.admin.netdatalist.base.di.BaseMVPActivity;
 
 import java.util.List;
@@ -15,9 +16,11 @@ import java.util.List;
  * Created by admin on 2017/7/6.
  */
 
-public class ArticleListActivity extends BaseMVPActivity<ArticleListPresenter> implements ArticleListContract.View {
+public class ArticleListActivity extends BaseActivity {
+
+
     @Override
-    protected void injectComponent() {
+    protected void onViewCreated(@Nullable Bundle saveInstanceState) {
 
     }
 
@@ -26,28 +29,10 @@ public class ArticleListActivity extends BaseMVPActivity<ArticleListPresenter> i
         return R.layout.activity_main;
     }
 
-    @Override
-    protected void onViewCreated(@Nullable Bundle saveInstanceState) {
-        super.onViewCreated(saveInstanceState);
-        initView();
-    }
 
     private void initView() {
 
     }
 
-    @Override
-    public void getArticleListRefreshSuccess(List<ArticleListBean> articleList) {
 
-    }
-
-    @Override
-    public void getArticleListMoreSuccess(List<ArticleListBean> articleList) {
-
-    }
-
-    @Override
-    public void showErrorToast(String msg) {
-
-    }
 }

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--NavigationBar-->
+    <item name="nav_background" type="id"/>
+    <item name="navigation_bar" type="id"/>
+    <!--ConvenientBanner-->
+    <item name="cb_item_tag" type="id"></item>
+</resources>

@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">NetDataList</string>
+    <string name="loading_more">加载更多</string>
+    <string name="is_loading">正在加载...</string>
+    <string name="loading_finish">加载完成</string>
+    <string name="no_more_loadind">没有更多了</string>
 </resources>
